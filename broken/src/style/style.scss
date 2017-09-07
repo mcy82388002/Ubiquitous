@@ -1,0 +1,59 @@
+$color-purple:rgb(189, 98, 175);
+
+body,html,li,ul,h1{
+    margin: 0;
+    padding: 0;
+    font-family: "Microsoft Yahei";
+}
+
+ul,li{
+    list-style: none;
+    display: inline-block;
+    overflow: auto;
+}
+
+a{
+    text-decoration: none;
+    color: #757575;
+}
+
+.global_nav{
+    background: #fafafa;
+    position: relative;
+    z-index:3;
+    width: 100%;
+    .global_nav_inner{
+        height: 67px;
+        width: 1140px;
+        margin: 0 auto;
+        .logo{
+            display: inline-block;
+            h1{
+                a{
+                    display: block;
+                    width:200px;
+                    height: 67px;
+                    background: url('https://static.segmentfault.com/v-59b0b533/global/img/logo-b.svg') center no-repeat;
+                }
+            }
+        }
+        .nav_list{
+           display: inline-block;
+            height: 67px;
+            line-height: 67px;
+           overflow: hidden;
+           ul{
+               li{
+                   font-size:16px;
+                   a{
+                       padding: 8px 13px;
+                       border-radius:4px;
+                       &:hover{
+                           background: #f0f0f0;
+                       } 
+                   }
+               }
+           }
+        }
+    }
+}

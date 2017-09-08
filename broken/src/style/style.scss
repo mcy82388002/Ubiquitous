@@ -33,7 +33,7 @@ a{
                     display: block;
                     width:200px;
                     height: 67px;
-                    background: url('https://static.segmentfault.com/v-59b0b533/global/img/logo-b.svg') center no-repeat;
+                    background: url('./assets/images/myLogo.png') center no-repeat;
                 }
             }
         }
@@ -54,6 +54,9 @@ a{
                    }
                }
            }
+        }
+        .loginWrap{
+            float: right;
         }
     }
 }

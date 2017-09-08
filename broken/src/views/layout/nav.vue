@@ -8,10 +8,16 @@
             </div>
             <div class="nav_list">
                 <ul>
-                    <li><a href="">问答</a></li>
-                    <li><a href="">头条</a></li>
-                    <li><a href="">专栏</a></li>
-                    <li><a href="">活动</a></li>
+                    <li><a href="">讨论</a></li>
+                    <!--<li><a href="">精品</a></li>
+                    <li><a href="">专题</a></li>
+                    <li><a href="">活动</a></li>-->
+                </ul>
+            </div>
+            <div class="loginWrap">
+                 <ul>
+                    <li><a href="">立即登录</a></li>
+                    <li><a href="">马上注册</a></li>
                 </ul>
             </div>
         </div>
